@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Fundamentos de la fotografía</title>
+</head>
+<body>
+<header>Planos y ángulos en la fotografía</header>
+<p>Los planos son una forma de composición de la imagen, se usan también en cine y pintura.</p>
+<section>
+<h1>Los Planos</h1>
+<article>
+<p>En fotografía y en cine, el plano refiere la proporción que tiene el objeto o personaje dentro del encuadre, estos nos indican que sección de la imagen aparecerá en la toma y cuáles son los mejores cortes que se pueden realizar sin que se descuide la proporción adecuada y que la misma conserve la estética de la imagen.</p>
+</article>
+<article>
+<h2>Los Ángulos</h2>
+<p>Cuando hablamos del ángulo fotográfico, nos referimos a la posición que tiene la cámara con respecto al objeto a fotografiar.</p>
+</article>
+</section>
+<aside>
+<h3>Autor</h3>
+<p>Esta información fue tomada de <a>https://www.google.com/search?q=que+son+los+planos+y+angulos+en+la+fotografia&sca_esv=cc91aa7b516a412e&rlz=1C1UEAD_esCO1028CO1028&sxsrf=AHTn8zo4yMJ9lyMTkOzVB9jwHKaPby3blw%3A1745373961581&ei=CUsIaJGnI_GQwbkP__PcyAM&ved=0ahUKEwjRz-vXiO2MAxVxSDABHf85FzkQ4dUDCBI&uact=5&oq=que+son+los+planos+y+angulos+en+la+fotografia&gs_lp=Egxnd3Mtd2l6LXNlcnAiLXF1ZSBzb24gbG9zIHBsYW5vcyB5IGFuZ3Vsb3MgZW4gbGEgZm90b2dyYWZpYTIIEAAYgAQYogQyCBAAGIAEGKIESKFbUPYRWO5GcAF4AZABAJgBnQGgAaUNqgEEMC4xMrgBA8gBAPgBAZgCDaACqg7CAgoQABiwAxjWBBhHwgIHECMYsAIYJ8ICCBAAGAUYDRgewgIKECEYoAEYwwQYCsICCBAhGKABGMMEmAMAiAYBkAYIkgcEMS4xMqAHpi6yBwQwLjEyuAeaDg&sclient=gws-wiz-serp</a></p>
+</aside>
+<footer>Matilda Salazar</footer>
+</body>
+</html>
