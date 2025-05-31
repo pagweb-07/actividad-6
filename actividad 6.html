@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Mi primera página web</title>
+<!-- Bootstrap CSS desde CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .info-extra {
+   margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container my-4 border border-success p-4">
+<!-- Header -->
+<header class="d-flex justify-content-between align-items-center bg-warning p-3 mb-3">
+<div class="d-flex align-items-center">
+<img src="https://media.gq.com.mx/photos/62e96215410e4b292e69d6eb/16:9/w_2872,h_1615,c_limit/Camaras%20para%20viaje.jpg" alt="Cámara" width="80" class="me-2">
+<h1 class="h4 m-0">La Fotografía</h1>
+</div>
+<div>
+<img src="https://static.vecteezy.com/system/resources/thumbnails/037/371/298/small/ai-generated-a-couple-of-love-makes-a-heart-shaped-gesture-while-the-sunset-ai-background-photo.jpg" alt="Cámara" width="80">
+</div>
+</header>
+
+<!-- Menú de navegación -->
+<nav class="nav justify-content-center bg-primary text-white p-2 mb-3">
+    <a class="nav-link text-white" href="#temas">Temas</a>
+    <a class="nav-link text-white" href="#planos">Planos</a>
+    <a class="nav-link text-white" href="#angulos">Ángulos</a>
+    <a class="nav-link text-white" href="#autor">Autor</a>
+</nav>
+
+<!-- Contenido principal -->
+<div class="row">
+<section class="col-md-8 bg-danger bg-opacity-50 p-3">
+<h2 id="temas">Lista de Temas y Subtemas</h2>
+<ul>
+ <li>Fundamentos de la Fotografía</li>
+ <li>Planos y Ángulos en la Fotografía
+<ul>
+ <li>Los Planos</li>
+ <li>Los Ángulos</li>
+</ul>
+ </li>
+ <li>Autoría y Referencias</li>
+</ul>
+
+<h2>FUNDAMENTOS DE LA FOTOGRAFÍA</h2>
+<h3>Planos y ángulos en la fotografía</h3>
+ <p>Los planos son una forma de composición de la imagen, se usan también en cine y pintura.</p>
+ <h2 id="planos">Los Planos</h2>
+ <p>En fotografía y en cine, el plano refiere la proporción que tiene el objeto o personaje dentro del encuadre...</p>
+ <button class="btn btn-outline-light btn-sm bg-primary text-white" onclick="mostrarInfo('planos')">Ver más sobre los tipos de planos</button>
+ <div id="info-planos" class="info-extra" style="display: none;">
+<ul>
+ <li>Plano General</li>
+ <li>Plano Entero</li>
+ <li>Plano Medio</li>
+ <li>Primer Plano</li>
+ <li>Plano Detalle</li>
+</ul>
+</div>
+<h2 id="angulos">Los Ángulos</h2>
+<p>Cuando hablamos del ángulo fotográfico, nos referimos a la posición que tiene la cámara con respecto al objeto a fotografiar.</p>
+<button class="btn btn-outline-light btn-sm bg-primary text-white" onclick="mostrarInfo('angulos')">Ver más sobre los ángulos</button>
+<div id="info-angulos" class="info-extra" style="display: none;">
+<ul>
+ <li>Ángulo Picado</li>
+ <li>Ángulo Contrapicado</li>
+ <li>Ángulo Cenital</li>
+ <li>Ángulo Nadir</li>
+ <li>Ángulo Frontal</li>
+</ul>
+</div>
+</section>
+
+<!-- Aside -->
+<aside id="autor" class="col-md-4 bg-warning p-3">
+<h3>Autor</h3>
+<p>Esta información fue tomada de <a href="https://www.google.com/search?q=que+son+los+planos+y+los+ángulos+en+fotografía" target="_blank">Google</a>.</p>
+</aside>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center p-3 mt-4">
+Matilda Salazar. Correo: matildasalazar99@gmail.com Tel: 3126768058
+</footer>
+
+<!-- Mensaje del uso del framework -->
+<div class="text-center mt-3 text-muted small">
+*Esta página utiliza Bootstrap mediante componentes individuales.*
+</div>
+</div>
+
+<!-- Script para mostrar/ocultar información -->
+<script>
+function mostrarInfo(tipo) {
+const div = document.getElementById(`info-${tipo}`);
+div.style.display = (div.style.display === 'none') ? 'block' : 'none';
+  }
+</script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
